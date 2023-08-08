@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* utility-classes */
+:root{
+    --nav-height:59px;
+    --primary-color: greenyellow;
+
+}
+
+.m{
+    margin: 20px;
+}
+
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+}
+.container{
+    width: 1300px;
+   margin-inline: auto;
+   overflow: hidden;
+}
+/* nav-section */
+#nav-section{
+    background-color: rgb(184, 255, 77);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.bar{
+    display: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    color: black;
+}
+
+.item-list{
+    display: flex;
+    gap: 30px;
+    padding:10px 50px ;
+}
+
+.item {
+    list-style: none;
+    font-size: 1.3rem;
+    padding-top:10px;
+}
+
+.item a{
+    text-decoration: none;
+    color:black;
+    border-radius: 30px;
+    padding: 3px 20px;
+}
+
+.item a:hover{
+    transition: all 0.3s ease-in-out;
+    background-color:black;
+    color: white;
+}
+
+/* home section */
+
+.left-home{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: auto;
+}
+
+.main-home{
+    padding-top: 50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    margin: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: var(--primary-color);
+}
+
+.btn:hover{
+    background-color: rgb(14, 221, 14);
+    color: white;
+    transition: all 0.2s;
+}
+
+.right-home{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.left-home h1{
+    margin-top: 50px;
+}
+
+/* services-section */
+
+.card{
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px  solid var(--primary-color);
+    padding: 30px;
+    border-radius:10px ;
+}
+
+.card > img{
+    width: 100px;
+}
+.card > h3{
+    margin: 10px;
+}
+
+.serviecs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sevices-section{
+    margin-block: 50px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+
+
+/* contact us page */
+
+.contactus{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-head{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+}
+
+.mail{
+    display: flex;
+    gap: 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bt{
+    font-size: 0.8rem;
+}
+
+.right-part{
+    display: flex;
+    justify-content: center;
+}
+.right-part img{
+    width: 70%;
+}
+
+
+/* footer section */
+footer {
+    background-color:var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    margin-top: 100px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .footer-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-menu a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .app-download img {
+    width: 140px;
+    margin-right: 10px;
+  }
+  
+  .app-download a:last-child {
+    margin-right: 0;
+  }
+  
+  .app-download a img:hover {
+    opacity: 0.8;
+  }
+  
+  .copyright p {
+    font-size: 14px;
+    color: black;
+  }
+  
