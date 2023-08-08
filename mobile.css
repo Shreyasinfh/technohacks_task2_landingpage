@@ -1,0 +1,75 @@
+@media (max-width:600px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-home {
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .right-home img {
+        width: 70%;
+    }
+
+    .left-home {
+        width: 100%;
+    }
+
+    .contactus {
+        flex-direction: column-reverse;
+    }
+
+    .left-part {
+        width: 100%;
+    }
+
+    .m {
+        margin: 10px;
+    }
+
+    .name {
+        flex-direction: column;
+    }
+
+    .Fname,
+    .mail,
+    .Lname {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bar {
+        display: block;
+        padding: 10px;
+        margin-right:50px;
+    }
+
+    .item-list {
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 60px;
+        right: -100%;
+        background-color: rgba(255, 255, 255, 0.3);
+        opacity: 10;
+        width: 80%;
+        transition: 0.2s ease-in-out;
+    }
+
+    .item-list.active{
+        right: 0;
+    }
+
+}
